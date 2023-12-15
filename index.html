@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+    	<meta charset="UTF-8" />
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<link rel="stylesheet" href="static/style.css" />
+    	<title>Leo Amora - Portfolio</title>
+    	<link rel="icon" type="image/x-icon" href="assets/icon-images/fav-icon.png">
+  	</head>
+
+  	<body>
+    	<nav class="navbar">
+      		<div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+      		<button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+        		<span class="material-icons">menu</span>
+      		</button>
+
+			<h1 class="navbar-title">
+				<img src="assets/icon-images/fav-icon.png" style="filter: invert(100%); vertical-align: 3px"> Amora
+			</h1>
+			<nav class="navbar-menu">
+				<button id="button" class="active">
+					<a href="#knowledge">Knowledges</a>
+				</button>
+				<button id="button" class="active" href="#">Experience</button>
+				<button id="button" class="active" href="#">Projects</button>
+				<button id="button" class="active" href="#">Contact</button>
+			</nav>
+    	</nav>
+
+    	<div style="padding: 7rem"></div>
+
+    	<header class="container">
+      		<div class="content">
+        		<h4>
+          			>>> <span class="print">print</span>(<span class="string">"Hello, world!"</span>) <span class="cursor">|</span>
+        		</h4>
+        		<h1><span>Leo Amora</span></h1>
+        		<p>Software Engineer, Front End & Back End Developer</p>
+      		</div>
+      		<div class="img-profile">
+        		<img src="assets/face.png">
+        		<span class="blur"></span>
+      		</div>
+    	</header>
+
+    	<div style="padding: 7rem"></div>
+
+    	<section class="container">
+      		<h2 class="header"><p id="knowledge">KNOWLEDGES</p></h2>
+      		<div class="knowledges">
+        		<div class="card">
+          			<h4>
+            			LANGUAGES <img src="assets/icon-images/terminal-box-fill.svg" />
+          			</h4>
+          			<p>Python, Javascript, HTML, CSS and SQL</p>
+        		</div>
+        		<div class="card">
+          			<h4>FRAMEWORKS <img src="assets/icon-images/shapes-fill.svg" /></h4>
+          			<p>Flask and Pandas</p>
+        		</div>
+        		<div class="card">
+          			<h4>
+            			TOOLS <img src="assets/icon-images/database-2-fill.svg" alt="" />
+          			</h4>
+          			<p>SQL Lite and Bootstrap</p>
+        		</div>
+      		</div>
+    	</section>
+
+    	<div style="padding: 7rem"></div>
+
+    	<footer class="footer social">
+      		<a class="social-links" href="https://www.youtube.com/@leoamora">
+				<img style="width: 40px; height: auto" src="assets/icon-images/yt_bw.png" alt="yt_color">
+			</a>
+      		<a class="social-links" href="www.linkedin.com/in/leoamora">
+				<img style="width: 40px; height: auto" src="assets/icon-images/linkedin_bw.png" alt="linkedin_color">
+			</a>
+      		<a class="social-links" href="https://www.instagram.com/oleoamora/">
+				<img style="width: 40px; height: auto" src="assets/icon-images/ig_bw.png" alt="ig_color">
+			</a>
+      		<a class="social-links" href="https://github.com/leoamora94">
+				<img style="width: 40px; height: auto" src="assets/icon-images/github_bw.png" alt="github_color">
+			</a>
+    	</footer>
+
+    	<script type="text/javascript">
+      		const toggleMenuOpen = () => document.body.classList.toggle("open");
+    	</script>
+  	</body>
+</html>
